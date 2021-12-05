@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock App</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="intro">
+      <p>
+        "The science of operations, as derived from mathematics more especially,
+        is a science of itself, and has its own abstract truth and value
+      </p>
+
+      <p>Ada Lovelace</p>
+    </div>
+
+    <div class="time">
+      <span class="greetings">
+        <img src="./images/icon-sun.svg" alt="" />
+        <h4 class="view"></h4>
+      </span>
+
+      <h1 class="time-text"><span class="timezone"></span></h1>
+
+      <div>
+        <h4 class="country"></h4>
+
+        <button class="btn more-btn">
+          More <span><img src="./images/icon-arrow-up.svg" alt="" /></span>
+        </button>
+
+        <button class="btn less-btn">
+          less <span><img src="./images/icon-arrow-down.svg" alt="" /></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="time_info">
+      <div>
+        <p class="question">current timezone</p>
+        <p class="answer map"></p>
+      </div>
+
+      <div>
+        <p class="question">day of the year</p>
+        <p class="answer year"></p>
+      </div>
+
+      <div>
+        <p class="question">day of the week</p>
+        <p class="answer week"></p>
+      </div>
+
+      <div>
+        <p class="question">week number</p>
+        <p class="answer week_no"></p>
+      </div>
+    </div>
+  </body>
+</html>

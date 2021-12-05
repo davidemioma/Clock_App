@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../images/mobile/bg-image-daytime.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+
+  @media (min-width: 768px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+      url(../images/tablet/bg-image-daytime.jpg);
+  }
+
+  @media (min-width: 1024px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+      url(../images/desktop/bg-image-daytime.jpg);
+  }
+}
+
+h1 {
+  font-size: 8rem;
+
+  @media (min-width: 768px) {
+    font-size: 16rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 20rem;
+  }
+
+  span {
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}

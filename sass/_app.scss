@@ -1,0 +1,126 @@
+.intro {
+  padding: 3rem 3rem 20rem 3rem;
+
+  @media (min-width: 1024px) {
+    width: 60%;
+  }
+
+  @media (min-width: 768px) {
+    padding: 5rem 7rem 10rem 7rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 5rem 15rem 10rem 15rem;
+  }
+
+  p {
+    opacity: 0.8;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.time {
+  padding: 10rem 3rem 7rem 3rem;
+  display: grid;
+  gap: 2rem;
+
+  @media (min-width: 768px) {
+    padding: 5rem 7rem 9rem 7rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 5rem 15rem 9rem 15rem;
+  }
+
+  .greetings {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  div {
+    display: grid;
+    gap: 3rem;
+
+    .less-btn {
+      display: none;
+    }
+
+    .more-btn {
+      display: inline-flex;
+    }
+
+    .btn {
+      width: 130px;
+      padding: 1rem;
+      border-radius: 30px;
+      border: 0;
+      outline: 0;
+      align-items: center;
+      justify-content: space-between;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      span {
+        display: inline-block;
+        background: gray;
+        padding: 1rem;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+
+.time_info {
+  padding: 7rem 3rem;
+  background-color: lightgray;
+  opacity: 0.8;
+  color: black;
+  display: none;
+  gap: 3rem;
+
+  @media (min-width: 768px) {
+    padding: 7rem 5rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 7rem 15rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .question {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 100;
+
+    @media (min-width: 1024px) {
+      font-size: 1.6rem;
+    }
+  }
+
+  .answer {
+    font-size: 2rem;
+
+    @media (min-width: 1024px) {
+      font-size: 6rem;
+    }
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-width: 1024px) {
+      display: grid;
+      gap: 2rem;
+    }
+  }
+}
